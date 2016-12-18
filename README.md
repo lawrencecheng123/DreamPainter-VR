@@ -14,3 +14,5 @@ Example styles below: ![alt text](http://i.imgur.com/wiOtLFY.jpg "Stylized Pictu
   
   For the paintbrush feature, we used Unity's Gyroscope readings to obtain quaternion readings of the user's headset orientation. We then translated those readings into Euler angles, then used equirectangular projection mappings to align our angles with corresponding areas on the original 2-D image. This allowed the user to look at an area in the photo sphere, modify the 2-D painting, and have Unity remap the affected area into the sphere.
 
+## DreamPainter in action
+[![DreamPainter Video](http://imgur.com/a/h1X3D)](https://vimeo.com/191366255)
