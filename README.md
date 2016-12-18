@@ -6,7 +6,7 @@ See the world through the eyes of artistic genius, with Samsung Gear VR and Fast
 Example styles below: ![alt text](http://i.imgur.com/wiOtLFY.jpg "Stylized Picture Examples")
 
 ## How we built it
-  We used Logan Engstrom's fast style transfer neural network implementation found here to give a set of equirectangular photosphere images in the style of famous paintings such as Picabia's Udnie, The Great Wave off Kanagawa, Picasso's A Muse, and many more.
+  We used Logan Engstrom's fast style transfer neural network implementation found [here](https://github.com/lengstrom/fast-style-transfer) to give a set of equirectangular photosphere images in the style of famous paintings such as Picabia's Udnie, The Great Wave off Kanagawa, Picasso's A Muse, and many more.
   
   Because we had limited computational power, we could not run an entire image through the neural net implementation at once, so we wrote an image processing pipeline that would slice each image into pieces, feed each one through the NN, and then stitch the results back together.
   
@@ -14,5 +14,5 @@ Example styles below: ![alt text](http://i.imgur.com/wiOtLFY.jpg "Stylized Pictu
   
   For the paintbrush feature, we used Unity's Gyroscope readings to obtain quaternion readings of the user's headset orientation. We then translated those readings into Euler angles, then used equirectangular projection mappings to align our angles with corresponding areas on the original 2-D image. This allowed the user to look at an area in the photo sphere, modify the 2-D painting, and have Unity remap the affected area into the sphere.
 
-## DreamPainter in action
-[![DreamPainter Video](http://imgur.com/a/h1X3D)](https://vimeo.com/191366255)
+## DreamPainter In Action
+[![DreamPainter Video](DreamPainter.png)](https://vimeo.com/191366255)
