@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{1366C58B-196C-8A92-1B7C-7644ACFD20AC}") = "DreamPainter", "Assembly-CSharp.csproj", "{8018EB6D-D6F9-0692-51BC-C340DA32299F}"
+EndProject
+Project("{1366C58B-196C-8A92-1B7C-7644ACFD20AC}") = "DreamPainter", "Assembly-CSharp-Editor.csproj", "{07B25336-7F32-1E58-EC87-072FDD5539CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8018EB6D-D6F9-0692-51BC-C340DA32299F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8018EB6D-D6F9-0692-51BC-C340DA32299F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8018EB6D-D6F9-0692-51BC-C340DA32299F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8018EB6D-D6F9-0692-51BC-C340DA32299F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B25336-7F32-1E58-EC87-072FDD5539CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B25336-7F32-1E58-EC87-072FDD5539CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B25336-7F32-1E58-EC87-072FDD5539CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B25336-7F32-1E58-EC87-072FDD5539CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
